@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+  <title>Collapsing Nav in Bootstrap</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+
+  <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span> 
+      <span class="icon-bar"></span> 
+
+    </button>
+    </div>
+      <div class="collapse navbar-collapse" id="collapsemenu">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Mission</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Staff</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul> 
+      </div>   
+  </div>
+</nav>
+
+<div class=" container">
+  <div class="row">
+    <section class="col-xs-12">
+
+      <h2>Collapsing Navigation</h2>
+
+      <p>Look at the page source to see how the nav is organized.</p>
+      <p>As you resize the browser and the viewport decreases, the nav disappears and a menu icon appears at the upper right. Nav come back when you click the icon.</p>
+
+      <p>There are some additional classes. The ul is in a div with the classes collapse and navbar-collapse. It has an id of collapsemenu as well. Additional, there is a div right above that that has a class of navbar-header. It has a button that has a few classes and attributes: classes of navbar-toggle and collapsed, attributes of data-toggle set to collapse and data-target set to #collapse menu, the id. There are also 3 spans with a class of icon-bar.</p>
+
+
+    </section>
+  </div><!-- row -->   
+</div><!-- content container -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+
+</body>
+</html>

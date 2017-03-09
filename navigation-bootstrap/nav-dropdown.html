@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+  <title>Bootstrap</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Mission</a></li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+
+        <ul class="dropdown-menu"> 
+          <li><a href="#">Coffee</a></li>
+          <li><a href="#">Pizza</a></li>
+          <li><a href="#">Snacks</a></li>
+
+        </ul>
+      </li>
+      <li><a href="#">Staff</a></li>
+      <li><a href="#">Testimonials</a></li>
+    </ul>    
+  </div>
+</nav>
+
+<div class=" container">
+  <div class="row">
+    <section class="col-xs-12">
+
+      <h2>Navigation</h2>
+
+      <p>Look at the page source to see how the nav is organized.</p>
+      <p>There is a dropdown in the services li item. It is in a ul. There is a class of dropdown-toggle in the anchor tag and a data-toggle attribute with a value of dropdown. The inner ul has a class of dropdown-menu</p>
+
+      <p>As in the previous example we saw, there is a nav with a class of navbar and navbar-default. Change navbar-default to navbar-inverse to see what happens to it. Also try adding navbar-fixed-top and navbar-fixed-bottom. There is an ul with classes of nav and navbar-nav is inside a container.</p>
+
+
+    </section>
+  </div><!-- row -->   
+</div><!-- content container -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+
+</body>
+</html>
