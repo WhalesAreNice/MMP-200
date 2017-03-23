@@ -28,13 +28,37 @@ h1{
 }
 
 .navbar{
-    background-color:black;
+    background-color:black !important;
+    
 }
 
-ul.nav li a{
+.nav li a{
     color:white;
     font-family:Walkway_SemiBold;
     font-size:1.75em;
+}
+
+.nav li a:hover{
+    background-color:#333333 !important;
+}
+
+.navbar-nav>li>a{
+    color:white !important;
+}
+
+.dropdown-menu>li>a {
+    color:#fff !important;
+    background-color:black !important;
+}
+
+.dropdown-menu>li>a:hover{
+    background-color:#333333 !important;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-color: black;
 }
 
 footer{
