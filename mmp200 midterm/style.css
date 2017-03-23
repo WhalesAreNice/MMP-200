@@ -1,0 +1,44 @@
+body{
+    color:white;
+    background-color:black;
+    font-family:Helvetica, sans-serif;
+}
+
+img{
+    width:100%;
+}
+
+.jumbotron{
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+    background-color:#0a0a0a;
+}
+
+h1{
+    text-align:center;
+    font-family:Walkway_SemiBold;
+}
+
+@font-face{
+    font-family:Walkway_SemiBold;
+    src: url(font/Walkway_SemiBold.ttf);
+}
+
+.navbar{
+    background-color:black;
+}
+
+ul.nav li a{
+    color:white;
+    font-family:Walkway_SemiBold;
+    font-size:1.75em;
+}
+
+footer{
+    margin-top:3%;
+    border-top:solid 1px;
+    padding-top:1%
+}
