@@ -109,3 +109,24 @@ footer{
     border-top:solid 1px;
     padding-top:1%
 }
+
+.social{
+    margin:0 auto;
+}
+
+.col-sm-4{
+    margin:0 auto !important;
+}
+
+.social img{
+    margin-top:10%;
+    margin-left:1%;
+    margin-right:1%;
+    width:20%;
+    padding:1%;
+    border:1px solid white;
+}
+
+.social img:hover{
+    border:1px solid gray;
+}
