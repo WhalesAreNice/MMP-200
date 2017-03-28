@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" href="style.css">
+
+            <title>Tickets</title>
+        </head>
+        <body>
+           <nav class="navbar navbar-default">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapsemenu">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+
+                      <ul class="dropdown-menu"> 
+                        <li><a href="bio.html">Bio</a></li>
+                        <li><a href="eden.html">EDEN / The EDEN Project</a></li>
+
+                      </ul><!--dropdown end-->
+                    </li>
+                    <li><a href="concert.html">Concerts</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                  </ul> 
+                </div>   
+              </div>
+            </nav>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h3>Purchase your ticket for an EDEN Concert.</h3>
+                        <form>
+                            <div class="radio">
+                                <label><input name="pricing" type="radio">Standard Ticket</label>
+                            </div>
+                            <div class="radio">
+                                <label><input name="pricing" type="radio">Special Ticket</label>
+                            </div>
+                            <div class="radio">
+                                <label><input name="pricing" type="radio">VIP Ticket</label>
+                            </div>
+                            <div class="form-group">
+                              <label for="sel1">Concert Date:</label>
+                              <select class="form-control" id="sel1">
+                                <option>Select One</option>
+                                <option>March 29th, 2017</option>
+                                <option>April 10th, 2017</option>
+                                <option>May 2nd, 2017</option>
+                                <option>June 25th, 2017</option>
+                              </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input class="form-control" type="text" id="inputName" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email Address</label>
+                                <input class="form-control" type="text" id="inputEmail" placeholder="Email Address">
+                            </div>
+                            <input class="btn pull-right myBtn" type="submit" value="submit">
+                        </form>
+                    </div>
+                </div>
+                <footer>
+                        <div class="container">
+                            <p>Made by Allan Ng for MMP 200</p>
+                        </div>
+                    </footer>
+            </div><!--close main container-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        </body>
+    </html>
