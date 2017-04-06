@@ -1,0 +1,11 @@
+body{
+ background-color: lightcyan;
+}
+
+.banner img{
+    width:100%;
+}
+
+.navbar{
+    background-color: lightblue !important;
+}
